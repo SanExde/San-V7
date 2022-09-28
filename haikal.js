@@ -244,9 +244,9 @@ jpegThumbnail:log0,
 caption:  `
 Haii 👋 Kak ${pushname} Selamat ${salam} 
 
-🌷 Nama : ${pushname}
-🌷 Status : Verifikasi
-🌷 Total User : ${_registered.length}
+❏ Nama : ${pushname}
+❏ Status : Verifikasi
+❏ Total User : ${_registered.length}
 
 *Silahkan Ketik Menu Untuk Menggunakan Bot`,
 }
@@ -458,7 +458,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT HW MODS WA",
+"name": "HALO 👋 SAYA BOT FUKAKUK",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -473,7 +473,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM BROTHER BY HW MODS WA"
+"optionName": "SALAM BROTHER BY FUKAKUK"
 	}
 ],
 "selectableOptionsCount": 5
@@ -495,9 +495,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	"itemCount": 1999,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
-	"message": " BY HW MODS WA V2 ",
+	"message": " BY FUKAKUK V2 ",
 	"orderTitle": " BUG TROLI ", // 
-	"sellerJid": "6281214281312@s.whatsapp.net",
+	"sellerJid": "6282114680993",
 	"token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ==",
 }
 }), { userJid: m.chat, quoted: doc })
